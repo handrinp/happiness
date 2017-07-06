@@ -7,7 +7,12 @@ dimensional Z2 graded complex associative algebras.
 
 Previously, much of this work was done using various versions of Maple
 mathematics software.  This project is a rewriting of the original Maple code
-into the Sage/Python programming language.
+into the Sage/Python programming language.  This currently consists of two
+phases:
+
+1. Convert all Maple functions verbatim (same names and functionalities).  This will aid in understanding what exactly the code is doing and ease the transition for past researchers.
+
+2. Object orient the SageMath code.  This will most likely require most code to be rewritten from scratch.
 
 
 ============================================================================
