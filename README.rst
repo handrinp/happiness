@@ -66,19 +66,19 @@ Sage notebook on the BGSC
 It is currently possible to run a sage notebook server on the BGSC and
 access it from a local machine with the following steps.
 
-    1. SSH into the BGSC forwarding port 8080 to your local machine:
-        ``ssh -L 8080:localhost:8080 USERNAME@bgsc.uwec.edu``
+1. SSH into the BGSC forwarding port 8080 to your local machine:
+    ``ssh -L 8080:localhost:8080 USERNAME@bgsc.uwec.edu``
 
-    2. Navigate to the SageMath directory on the BGSC:
-        ``cd /data/software/sage*``
+2. Navigate to the SageMath directory on the BGSC:
+    ``cd /data/software/sage*``
 
-    3. Run sage:
-        ``./sage``
+3. Run sage:
+    ``./sage``
 
-    4. Within SageMath, start the notebook server:
-        ``notebook(accounts=true)``
+4. Within SageMath, start the notebook server:
+    ``notebook(accounts=true)``
 
-    5. Open a web browser on your local machine to ``http://localhost:8080``
+5. Open a web browser on your local machine to ``http://localhost:8080``
 
 
 CoCalc on the BGSC
