@@ -55,6 +55,3 @@ Files
 ``test_ainfdefs.sage``
     This script checks the output of the new Sage functions with the expected
     output of the original Maple functions.
-
-
-
