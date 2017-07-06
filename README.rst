@@ -72,7 +72,7 @@ access it from a local machine with the following steps.
 2. Navigate to the SageMath directory on the BGSC:
     ``cd /data/software/sage*``
 
-3. Run sage:
+3. Run Sage:
     ``./sage``
 
 4. Within SageMath, start the notebook server:
