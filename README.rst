@@ -9,6 +9,7 @@ Previously, much of this work was done using various versions of Maple
 mathematics software.  This project is a rewriting of the original Maple code
 into the Sage/Python programming language.
 
+
 ============================================================================
 
 Testing
@@ -55,3 +56,40 @@ Files
 ``test_ainfdefs.sage``
     This script checks the output of the new Sage functions with the expected
     output of the original Maple functions.
+
+
+============================================================================
+
+Sage notebook on the BGSC
+=========================
+
+It is currently possible to run a sage notebook server on the BGSC and
+access it from a local machine with the following steps.
+
+    1. SSH into the BGSC forwarding port 8080 to your local machine:
+        ``ssh -L 8080:localhost:8080 USERNAME@bgsc.uwec.edu``
+
+    2. Navigate to the SageMath directory on the BGSC:
+        ``cd /data/software/sage*``
+
+    3. Run sage:
+        ``./sage``
+
+    4. Within SageMath, start the notebook server:
+        ``notebook(accounts=true)``
+
+    5. Open a web browser on your local machine to ``http://localhost:8080``
+
+
+CoCalc on the BGSC
+==================
+
+Eventually it would be nice to permanently host a full fledged CoCalc server
+on the BGSC.  This is entirely possible using a CoCalc Docker_ image.
+Unfortunately, the installation and setup of this image needs to be done by
+a BGSC admin and is not on their list of priorities.
+
+
+
+
+.. _Docker: https://github.com/sagemathinc/cocalc/blob/master/src/dev/docker/README.md
